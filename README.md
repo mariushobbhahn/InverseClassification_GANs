@@ -9,5 +9,5 @@ All other things have been added by me. If you have any questions or comments ju
 # Running the code
 
 - Training a network can be done with the conditional_dcgan.py file
-- Vizualizing the quality of the generated images can be done via the show_results.py file
+- Vizualizing the quality of the generated images can be done via the show_results.py file. The resulting images look like the G_epochX_nzY_nZ.png files in this repository. 
 - Running the Inverse Classification with the different experiments can be done via the test_IC.py file
