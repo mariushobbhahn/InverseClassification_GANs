@@ -1,21 +1,13 @@
-# Conditional Deep Convolutional Generative Adversarial Network 
+# Inverse Classification with Generative Adversarial Networks
 
-Conditional Generation of MNIST images using conditional DC-GAN in PyTorch.
+This is the accompanying repository for a project described in my blog post TODO:link.
 
-Based on the following papers:
-* [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
-* [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)
+The code for the conditional GAN is a slight adaption of https://github.com/malzantot/Pytorch-conditional-GANs implementation. All credit for the GAN part belongs to him, I merely updated some deprecated functions. 
 
-Implementation inspired by the PyTorch examples [implementation of DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
+All other things have been added by me. If you have any questions or comments just contact me at `marius.hobbhahn [at] gmail [dot] com`. 
 
-## Sample Results
-Example of sampling results shown below. Each row is conditioned on a different digit label:
-![Example of sampling results](sample_outputs/samples1.png)
-## Usage
-```
-python conditional_dcgan.py --cuda --save_dir=models --samples_dir=samples --epochs=25
-```
+# Running the code
 
-## Questions and comments:
-
-Feel free to reach to me at `malzantot [at] ucla [dot] edu` for any questions or comments.
+- Training a network can be done with the conditional_dcgan.py file
+- Vizualizing the quality of the generated images can be done via the show_results.py file
+- Running the Inverse Classification with the different experiments can be done via the test_IC.py file
